@@ -9,6 +9,7 @@ body {
   color: #333;
 }
 
+/* ==== HEADER ==== */
 .header {
   width: 100%;
   background-color: #004a99;
@@ -20,7 +21,6 @@ body {
   padding: 20px 40px;
   box-sizing: border-box;
 }
-
 
 .header img {
   width: 200px;
@@ -70,11 +70,9 @@ body {
   color: #004a99;
 }
 
-
 .left p {
   margin-bottom: 80px;
 }
-
 
 /* ==== COLUMNA DERECHA ==== */
 .right {
@@ -88,25 +86,15 @@ body {
 .right h1 {
   font-size: 40px;
   border-bottom: 2px solid #004a99;
-  margin-bottom: 10px;
-  color: #004a99;
   margin-bottom: 15px;
+  color: #004a99;
 }
 
 .right p {
   margin-bottom: 80px; 
 }
 
-
-.skills h3 {
-  font-size: 30px;      
-  font-weight: normal;  
-  margin: 50px 0;       
-  color: #333; 
-  margin-bottom: 80px;
-}
-
-
+/* ==== LISTAS ==== */
 ul {
   list-style: none;
   padding: 0;
@@ -114,7 +102,42 @@ ul {
 }
 
 ul li {
-  margin-bottom: 5px;
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+/* ==== SKILLS ==== */
+.skills {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-bottom: 30px;
+}
+
+.skill span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.skill-bar {
+  background: #e0e0e0;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 45px;
+  width: 100%;
+}
+
+.skill-fill {
+  background: #004a99; 
+  color: white;
+  text-align: center;
+  padding-right: 8px;
+  height: 100%;
+  line-height: 45px;
+  border-radius: 8px 0 0 8px;
+  font-size: 20px;
+  font-weight: bold;
 }
